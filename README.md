@@ -26,3 +26,6 @@ C++ Compiler (GCC recommended) and POSIX Threads Library (pthread).
 1) First run ./matrixgen -s [sizeofMatrix]
 2) Then ./main [Number of Threads]
 
+https://github.com/andrew786e/Matrix-Multiplication/assets/74216051/72229f8b-c8bd-41e5-a5d1-5a7397b3345b
+
+
