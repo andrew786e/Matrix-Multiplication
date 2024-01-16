@@ -93,8 +93,8 @@ int main(int argc , char* argv[]){
     ntimetaken = nEnd - nStart ;
     timetaken = end - start ;
 
-    cout << ntimetaken<< endl ;
-    cout << timetaken << endl ;
+    cout << "Time taken using no threads: " <<ntimetaken<< endl ;
+    cout << "Time taken with the use of threads: "<<timetaken << endl ;
 
     Lab1_saveoutput(C , &n , timetaken) ;
 
