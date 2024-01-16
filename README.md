@@ -24,5 +24,5 @@ C++ Compiler (GCC recommended) and POSIX Threads Library (pthread).
 
 **To run the program run:**
 1) First run ./matrixgen -s [sizeofMatrix]
-2) Then ./main
+2) Then ./main [Number of Threads]
 
