@@ -28,4 +28,17 @@ C++ Compiler (GCC recommended) and POSIX Threads Library (pthread).
 
 https://github.com/andrew786e/Matrix-Multiplication/assets/74216051/72229f8b-c8bd-41e5-a5d1-5a7397b3345b
 
+## Result and Analysis
+Upon running both versions of the matrix multiplication, users can observe key differences:
+
+**Execution Time:** Generally, the threaded implementation completes faster than the non-threaded version, especially as the size of the matrices increases. This difference in execution time is more pronounced on systems with multiple cores.
+
+**CPU Utilization:** The threaded version tends to utilize multiple cores effectively, leading to higher overall CPU usage during execution compared to the non-threaded version.
+
+**Matrix Size:** As the size of the matrices increases, the benefits of the threaded approach become more significant. Larger matrices typically show a more substantial improvement in computation time when using threads.
+
+**Overhead:** The threaded version incurs some overhead due to thread creation and management, which may not be beneficial for smaller matrices or systems with fewer cores.
+
+**Hardware Dependency:** The performance gains from the threaded implementation depend heavily on the system's hardware, particularly the number of cores and threads it supports.
+
 
